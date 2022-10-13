@@ -1,0 +1,25 @@
+{
+    "name": "hl56/gii-tools",
+    "description": "restful gii console tools",
+    "type": "yii2-extension",
+    "require-dev": {
+        "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hl56\\GiiTools\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "license": "MIT",
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": false
+        }
+    }
+}
